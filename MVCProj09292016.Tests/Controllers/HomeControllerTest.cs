@@ -22,7 +22,8 @@ namespace MVCProj09292016.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            //Assert.IsNotNull(result);
+            Assert.IsNull(result);//fail the test
         }
 
         [TestMethod]
